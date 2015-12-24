@@ -4,7 +4,13 @@ Feature: Adding
   I want to supply numbers.
 
 
-  Scenario: Add two numbers
-    Given the input "2+2"
+  Scenario Outline: Add two numbers
+    Given the input "<input>"
     When the calculator is run
-    Then The output should be "4"
+    Then The output should be "<output>"
+
+    Examples:
+    |input|output|
+    |2+2|4|
+    |98+1|99|
+    
