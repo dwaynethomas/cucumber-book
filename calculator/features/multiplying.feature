@@ -1,10 +1,10 @@
-Feature: Multiplication
-  In order to get the result of the multiplication:
+Feature: Multiplying
+  In order to get the result of the multiplying:
   As a customer,
-  I want to supply numbers.
+  I want to supply a multiplying expression.
 
 
-  Scenario Outline: Add two numbers
+  Scenario Outline: Supply a multiplying expression
     Given the input "<input>"
     When the calculator is run
     Then The output should be "<output>"
