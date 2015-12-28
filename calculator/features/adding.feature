@@ -1,7 +1,7 @@
 Feature: Adding
   In order to get the result of the addition:
   As a customer,
-  I want to supply numbers.
+  I want to supply an addition expression.
 
 
   Scenario Outline: Add two numbers
