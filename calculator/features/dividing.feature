@@ -7,9 +7,9 @@ Feature: Dividing
   Scenario Outline: Supply a dividing expression
     Given the input "<input>"
     When the calculator is run
-    Then The output should be "<output>"
+    Then The output should be "<expected_output>"
 
     Examples:
-    |input|output|
+    |input|expected_output|
     |2/2|1|
     |50/5|10|

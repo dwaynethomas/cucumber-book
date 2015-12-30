@@ -7,9 +7,9 @@ Feature: Adding
   Scenario Outline: Modulo two numbers
     Given the input "<input>"
     When the calculator is run
-    Then The output should be "<output>"
+    Then the output should be "<expected_output>"
 
     Examples:
-    |input|output|
+    |input|expected_output|
     |2%2|0|
     |24%5|4|

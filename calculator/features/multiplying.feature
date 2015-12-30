@@ -7,9 +7,9 @@ Feature: Multiplying
   Scenario Outline: Supply a multiplying expression
     Given the input "<input>"
     When the calculator is run
-    Then The output should be "<output>"
+    Then The output should be "<expected_output>"
 
     Examples:
-    |input|output|
+    |input|Examplesoutput|
     |2*2|4|
     |98*1|98|

@@ -7,9 +7,9 @@ Feature: Exponenting
   Scenario Outline: Exponent two numbers
     Given the input "<input>"
     When the calculator is run
-    Then The output should be "<output>"
+    Then The output should be "<expected_output>"
 
     Examples:
-    |input|output|
+    |input|expected_output|
     |2**3|8|
     |6**2|36|
