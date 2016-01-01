@@ -10,6 +10,6 @@ Feature: Multiplying
     Then The output should be "<expected_output>"
 
     Examples:
-    |input|Examplesoutput|
+    |input|expected_output|
     |2*2|4|
     |98*1|98|
