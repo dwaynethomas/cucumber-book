@@ -1,7 +1,7 @@
 # cucumber-book
-
-# clone the repository
-# navigate into calculator directory
+## instructions
+1.  clone the repository
+2.  navigate into calculator directory
  $cd calculator
-# run tests
+3. run tests
  $cucumber
