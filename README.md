@@ -10,9 +10,9 @@ Installation: (*see prerequisites)
 
 *Prerequisites for all cucumber tests here: (directions for Mac terminal)
 Installation:
-install rvm(suggestion: https://github.com/rvm/rvm) or install rbenv
-install a ruby version (see rvm, rbenv documentation)
-install bundler
+1. install rvm(suggestion: https://github.com/rvm/rvm) or install rbenv
+2. install a ruby version (see rvm, rbenv documentation)
+3. install bundler
 $ gem install bundler
-install gems via bundle
+4. install gems via bundle
 $ bundle install
